@@ -7,5 +7,5 @@ class FragmentForm(forms.ModelForm):
     
     class Meta:
         model = Fragment
-        fields = ('name', 'description', 'syntax', 'is_private',)
+        fields = ('name', 'summary', 'syntax', 'is_private',)
 
