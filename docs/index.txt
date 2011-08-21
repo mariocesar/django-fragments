@@ -6,6 +6,11 @@
 Django Fragments's documentation
 ================================
 
+A simplistic django app to share snippets and pastes with others.
+All code fragments are Mercurial repositories, so they are automatically
+versioned, forkable and usable as a Mercurial repository. (yep, like Gist from
+github.com ^_^)
+
 Contents:
 
 .. toctree::
