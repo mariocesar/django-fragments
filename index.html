@@ -9,18 +9,25 @@
     body {
       margin-top: 1.0em;
       background-color: #fff;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
+      font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+      font-size: 17px;
       color: #333;
     }
     #container {
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #3363B4; margin-bottom: 3px; }
+    h1, h2, h3 {
+       font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+       font-weight: bold;
+       margin: 30px 0 10px;
+       padding: 0;
+    }
+    h1 { font-size: 3.8em; }  
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #3363B4; }
-    h3 { text-align: center; color: #3363B4; }
+    h2 { font-size: 1.5em; }
+    h3 { text-align: center; }
     a { color: #133E86; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
@@ -59,6 +66,8 @@
     <div class="description">
       A simplistic django app to share snippets and pastes with others. All code fragments are Mercurial repositories, so they are automatically versioned, forkable and usable as a Mercurial repository.
     </div>
+    <h2>Documentation</h2>
+    <p><a href="http://django-fragments.readthedocs.org">http://django-fragments.readthedocs.org</a></p>
 
     <h2>Dependencies</h2>
     <p>
